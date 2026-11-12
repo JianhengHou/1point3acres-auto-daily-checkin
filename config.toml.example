@@ -6,7 +6,7 @@ cookie   = ""
 # —— 或者 ——
 username = ""
 password = ""
-captcha_key = ""         # 只有用“用户名+密码”登录且页面弹验证码时才需要
+captcha_key = ""         # 2captcha API Key。提交签到和每日答题都要过 Turnstile，有 Cookie 也需要
 
 [run]
 timeout  = 20            # 单次请求超时（秒）
