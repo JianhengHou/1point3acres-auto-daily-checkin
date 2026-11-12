@@ -46,11 +46,15 @@ pylint-report.json
 # -----------------------------------------------------------------------------
 #  Project-specific excludes
 # -----------------------------------------------------------------------------
-config.toml        # 项目默认配置，可公开提交时留空或删行
-*.local.toml       # 个人机密配置
-questions.local.json  # 本地补充的每日答题答案
-.env.example       # 模板可留，真实 .env 会被忽略
-.env               # 真实敏感信息
+# 本地账号配置，含 Cookie，不要提交
+config.toml
+# 个人机密配置
+*.local.toml
+# 本地补充的每日答题答案
+questions.local.json
+# 模板可留，真实 .env 会被忽略
+.env.example
+.env
 
 # VS Code / JetBrains IDE
 .vscode/
